@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+     avoid_print: true
+     prefer_single_quotes: false
+     unnecessary_this: false
+     avoid_init_to_null: false
+
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
