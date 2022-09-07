@@ -14,6 +14,13 @@ dependencies:
   cupertino_icons: any
   material_design_icons_flutter: any
   flutter_hooks: any
+  bloc: any
+  flutter_bloc: any
+  dio: any
+  pretty_dio_logger: any
+  dio_cache_interceptor: any
+  dio_logging_interceptor: any
+  mockito: any
 
   intl: any
   json_annotation: any

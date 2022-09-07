@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:untitled04/app/app_route_names.dart';
-import 'package:untitled04/screens/recording_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -21,9 +19,9 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.blue,
               ),
               child: TextButton(
-                onPressed: () => Navigator.of(context,).push(
-                  MaterialPageRoute(builder: (_,) => const RecordingScreen(),),
-                ),
+                onPressed: (){
+
+                },
                 child: const Text("Recording Page", style: TextStyle(color: Colors.white,),),
               ),
             ),
